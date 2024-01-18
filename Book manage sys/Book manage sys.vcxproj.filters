@@ -48,12 +48,6 @@
     <ClInclude Include="CBookDelete.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CUser.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CBook.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Book manage sys.cpp">
@@ -78,12 +72,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CBookDelete.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CUser.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CBook.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -9,10 +9,5 @@
 
 // 添加要在此处预编译的标头
 #include "framework.h"
-#include "CUser.h"
-#include <fstream>
-#include <string>
 
-using namespace std;
 #endif //PCH_H
-

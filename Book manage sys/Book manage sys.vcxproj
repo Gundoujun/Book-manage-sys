@@ -45,7 +45,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Dynamic</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -185,13 +185,11 @@
   <ItemGroup>
     <ClInclude Include="Book manage sys.h" />
     <ClInclude Include="Book manage sysDlg.h" />
-    <ClInclude Include="CBook.h" />
     <ClInclude Include="CBookAdd.h" />
     <ClInclude Include="CBookChange.h" />
     <ClInclude Include="CBookDelete.h" />
     <ClInclude Include="CBookmanageDlg.h" />
     <ClInclude Include="CBookSearch.h" />
-    <ClInclude Include="CUser.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
@@ -200,13 +198,11 @@
   <ItemGroup>
     <ClCompile Include="Book manage sys.cpp" />
     <ClCompile Include="Book manage sysDlg.cpp" />
-    <ClCompile Include="CBook.cpp" />
     <ClCompile Include="CBookAdd.cpp" />
     <ClCompile Include="CBookChange.cpp" />
     <ClCompile Include="CBookDelete.cpp" />
     <ClCompile Include="CBookmanageDlg.cpp" />
     <ClCompile Include="CBookSearch.cpp" />
-    <ClCompile Include="CUser.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
